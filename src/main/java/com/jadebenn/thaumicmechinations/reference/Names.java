@@ -9,6 +9,6 @@ public class Names
 	
 	public static final class Items
 	{
-		public static final String THAUMIUMIRONINGOT = "thaumiumAlloy";
+		public static final String THAUMIUMIRONINGOT = "thaumiumIronIngot";
 	}
 }

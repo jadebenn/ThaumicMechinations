@@ -3,3 +3,6 @@ item.thaumicmechinations:thaumiumIronIngot.name=Thaumium Alloy
 
 # Block localizations
 tile.thaumicmechinations:thaumiumAlloyBlock.name=Thaumium Alloy Block
+
+# Creative Tabs
+itemGroup.thaumicmechinations=Thaumic Mechinations

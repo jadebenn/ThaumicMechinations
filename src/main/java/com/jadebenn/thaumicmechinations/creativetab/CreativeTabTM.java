@@ -10,19 +10,13 @@ import net.minecraft.item.Item;
 
 public class CreativeTabTM 
 {
-	public static final CreativeTabs TM_TAB = new CreativeTabs(Reference.MOD_ID)
+	public static final CreativeTabs TM_TAB = new CreativeTabs(Reference.MOD_ID.toLowerCase())
 	{
 		@Override
 		@SideOnly(Side.CLIENT)
 		public Item getTabIconItem()
 		{
 			return ModItems.ThaumiumIronIngot;
-		}
-		
-		@Override
-		public String getTranslatedTabLabel()
-		{
-			return "Thaumic Mechinations";
 		}
 	};
 }
